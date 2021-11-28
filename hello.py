@@ -25,9 +25,33 @@ message_25 = "25 is here"
 
 first_name = "jonas".lower()
 # print(first_name) 
-print(first_name).title()
+# print(first_name).title()
 
 # Can't:
 mm = "2 - 2"
-print(3 + 3)
+# print(3 + 3)
+# print ()
+# Lists and Tuples
+students = ['Tarik', 'Diana', 'Yusuf', 'Jonas', 'Huzeyfe']
+# Naming and defining
+# Variable_name = (items)
+# Accessing elements
+# 0, 1, 2, 3, 4, 5, 6, 7,....,n
+# print(students[3])
+words = ['phyton','c','java']
+# print(words[0])
+(words [0]) = 'a good programming language'
+# print(words[0]
+# loops in lists
+# for name in students:
+    # print(name)
+# syntax
+# for var_name in list name:
+# --- whatever code to run
+# for name in students:
+    # print(name + ' works hard')
+
+students.sort(reverse=True)
+for st in students:
+    print(st)
 
